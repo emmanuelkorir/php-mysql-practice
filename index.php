@@ -6,6 +6,13 @@
     <title>File Upload</title>
 </head>
 <body>
+    <form action="includes/formhandler.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="email" name="email" placeholder="E-mail">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit" name="submit">Submit</button>
+    </form>
+    <br>
     <form action="upload.php" method="post" enctype="multipart/form-data">
         Select image to upload:
         <input type="file" name="fileToUpload" id="fileToUpload">
