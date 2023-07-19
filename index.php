@@ -6,7 +6,7 @@
     <title>File Upload</title>
 </head>
 <body>
-    <form action="includes/formhandler.php" method="post">
+    <form action="includes/formhandler.inc.php" method="post">
         <input type="text" name="username" placeholder="Username">
         <input type="email" name="email" placeholder="E-mail">
         <input type="password" name="password" placeholder="Password">
